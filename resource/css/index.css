@@ -7,6 +7,7 @@ html {
 	width: 300px;
 	border: solid black 1px;
 	padding: 5px 5px 5px 5px;
+	margin: auto;
 }
 
 #headerDiv {
@@ -84,6 +85,10 @@ form {
 p {
 	text-align: center;
 	color: red;
+}
+
+h1 {
+	text-align: center;
 }
 
 input::-webkit-inner-spin-button,
