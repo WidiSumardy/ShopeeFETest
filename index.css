@@ -1,0 +1,93 @@
+html {
+	font-family: sans-serif;
+	font-size: 15px;
+}
+
+#headerDiv, #detailDiv {
+	width: 300px;
+	border: solid black 1px;
+	padding: 5px 5px 5px 5px;
+}
+
+#headerDiv {
+	height: 50px;
+}
+
+.contentDiv {
+	padding: 2px 2px 2px 2px;
+	margin-top: 5px;
+	border: 1px solid black;
+}
+
+#labelHeader {
+	font-style: italic;
+	font-weight: bold;
+}
+
+#labelUSD {
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 1.5;
+}
+
+#labelCurrencyCode {
+	font-size: 20px;
+}
+
+#labelEquivalentAmount {
+	float: right;
+	font-size:20px;
+}
+
+#labelCurrencyName {
+	font-size: 12px;
+	font-style: italic;
+	font-weight: bold;
+}
+
+#labelRate {
+	font-size: 12px;
+	font-style: italic;
+}
+
+#inputAmount {
+	font-weight: bold;
+	font-size: 20px;
+	float: right;
+	width: 200px;
+	height: 30px;
+	text-align: right;
+	border: 0px;
+}
+
+#buttonDelete {
+	height: 55px;
+	float: right;
+	margin-left: 5px;
+}
+
+#buttonAdd {
+	margin-top: 5px;
+	width: 300px;
+}
+
+ul {
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+form {
+	margin-top: 5px;
+	text-align: center;
+}
+
+p {
+	text-align: center;
+	color: red;
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
